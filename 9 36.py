@@ -1,0 +1,7 @@
+sec_name = input("Введите фамилию \n >")
+country = input("Введите страну \n >")
+year = int(input("Введите год \n >"))
+money = int(input("Введите стоимость \n >"))
+date = int(input("Введите дату поездки \n >"))
+print (f' Ваша фамилия: {sec_name} \n Страна: {country} \n Год: {year} \n Стоимость: {money} \n Дата поездки: {date}')
+print (type(sec_name),type(country), type(year),type(money), type(date) )
